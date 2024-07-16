@@ -206,7 +206,7 @@ This code creates a dashboard with two charts: one where the data from all six s
 
 Adjust the chart properties to customize the visualizations as per your requirements.
 
-## Dashboard Visualization
+## Final Dashboard Visualization
 
 ![1721050490393](image/README/1721050490393.png)
 
