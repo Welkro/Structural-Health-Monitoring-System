@@ -209,10 +209,6 @@ Adjust the chart properties to customize the visualizations as per your requirem
 
 LightningChart allows for real-time data streaming and updates, which is essential for monitoring ongoing structural health.
 
-### Displaying Real-Time Seismic Activity
-
-Display real-time seismic activity using LightningChart to visualize the data as it is collected.
-
 ## Dashboard Visualization
 
 ![1721050490393](image/README/1721050490393.png)
@@ -244,5 +240,3 @@ By following this workflow, engineers and researchers can effectively monitor th
 * https://data.mendeley.com/datasets/snmz587nvb/1
 * https://data.mendeley.com/datasets/snmz587nvb/2
 * https://www.bigrentz.com/blog/shear-wall
-* https://en.wikipedia.org/wiki/Shearing_(physics)
-* https://en.wikipedia.org/wiki/Simple_shear
