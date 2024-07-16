@@ -8,7 +8,7 @@ Structural Health Monitoring (SHM) refers to the process of implementing a damag
 
 ### How Does Civil Engineering Use Structural Health Monitoring Systems?
 
-In civil engineering, SHM systems monitor various types of infrastructure, includingbridges, buildings, dams, and tunnels. These systems use a range of sensors,such as accelerometers, strain gauges, and temperature sensors, to measure parameters like vibrations, deformations, and environmental conditions. The collected data helps engineers assess structural integrity and make informed decisions about maintenance and repairs.
+In civil engineering, SHM systems monitor various types of infrastructure, includingbridges, buildings, dams, and tunnels. These systems use a range of sensors, such as accelerometers, strain gauges, and temperature sensors, to measure parameters like vibrations, deformations, and environmental conditions. The collected data helps engineers assess structural integrity and make informed decisions about maintenance and repairs.
 
 ### Why is it Important to Monitor Structural Health?
 
@@ -22,12 +22,6 @@ Monitoring structural health is vital for several reasons:
 ### What are Structural Sensors and Their Role in SHM?
 
 Structural sensors are devices used to measure physical quantities related to the structural integrity of a building or infrastructure. These sensors play a crucial role in SHM by providing real-time data on parameters like strain, temperature, and acceleration. The information gathered by these sensors is essential for the integrated matrix analysis of structures, allowing for a comprehensive assessment of building integrity.
-
-## Understanding Shear Buildings
-
-A shear building refers to a structure primarily supported by shear walls. Shear walls are vertical elements that resist lateral forces, such as those caused by wind or earthquakes, through shear and flexural strength. These walls are essential in maintaining a building's stability and integrity, especially in high-rise constructions. Shear buildings are designed to manage these forces efficiently, ensuring that the structure can withstand dynamic loads without significant deformation.
-
-The dataset used in this project employs a six-storey shear building model. Each building floor has an accelerometer (sensor) for six accelerometers. These sensors measure the dynamic floor responses, which are crucial for assessing the structural integrity of the building.
 
 ## LightningChart Python
 
@@ -61,11 +55,17 @@ Set up your development environment by creating a new project directory and inst
 
 The data used in this project comes from the dataset "Acceleration time history data for experimental shear building model" provided by Kumar Anjney and Koushik Roy. The dataset contains dynamic floor responses from a six-storey three-dimensional miniature model (scale 1:20) of a shear building. The experimental setup is located at the Structural Health Monitoring Lab, Block VI, Department of Civil and Environmental Engineering, Indian Institute of Technology (IIT), Patna, Bihar, India.
 
-The dataset includes both "Damaged" and "Undamaged" folders, each containing around 20 Excel files with data. However, upon investigating these files, it was observed that the data across them is quite similar. This suggests that the same type of test was likely conducted multiple times. Due to the lack of additional context from the dataset's source, we chose to visualize only the first file for this project to represent the dataset.
+The dataset includes both "Damaged" and "Undamaged" folders, each containing around 20 Excel files with data. However, upon investigating these files, it was observed that the data across them is quite similar. This suggests that the same type of test was likely conducted multiple times. Due to the lack of additional context from the dataset's source, we chose to visualize only the first file from the "Damaged" folder for this project to represent the dataset. However, data accessing, processing and visulization of the "Undamaged" data is included in the notebook file.
 
 Image of the model building used in the experiment:
 
 ![1721051807658](image/README/1721051807658.png)
+
+### Understanding Shear Buildings
+
+A shear building refers to a structure primarily supported by shear walls. Shear walls are vertical elements that resist lateral forces, such as those caused by wind or earthquakes, through shear and flexural strength. These walls are essential in maintaining a building's stability and integrity, especially in high-rise constructions. Shear buildings are designed to manage these forces efficiently, ensuring that the structure can withstand dynamic loads without significant deformation.
+
+The dataset used in this project employs a six-storey shear building model. Each building floor has an accelerometer (sensor) for six accelerometers. These sensors measure the dynamic floor responses, which are crucial for assessing the structural integrity of the building.
 
 ### How to Load Data Files
 
