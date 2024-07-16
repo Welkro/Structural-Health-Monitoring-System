@@ -106,17 +106,20 @@ dmgDataCleaned.head(10)
 
 ### Creating Waveform Graphs
 
-Use LightningChart Python to create waveform graphs of the acceleration data.
+Use LightningChart Python to create waveform graphs of the acceleration data. Below are two code cells from the notebook file where the dashboard is being created.
 
 ```python
 import lightningchart as lc
+lc.set_license("LICENSE-KEY")
 
 # Create a dashboard object with a specified number of columns and rows, and a light theme
 dashboard = lc.Dashboard(columns=2, rows=1, theme=lc.Themes.Light)
 
-# Opens and initializes dashboard before adding the data
+# Opens and initializes dashboard before adding the data in the cell below, hence the live=True
 dashboard.open(live=True)
+```
 
+```python
 # Extract the time and acceleration data from the DataFrame
 time = dmgDataCleaned['Time'].tolist()
 time = [x * 1000 for x in time]  # Convert time to milliseconds
@@ -203,10 +206,6 @@ This code creates a dashboard with two charts: one where the data from all six s
 
 Adjust the chart properties to customize the visualizations as per your requirements.
 
-### Streaming and Updating Data in Real-Time
-
-LightningChart Python allows for real-time data streaming and updates, which is essential for monitoring ongoing structural health.
-
 ## Dashboard Visualization
 
 ![1721050490393](image/README/1721050490393.png)
@@ -225,13 +224,7 @@ It's important to note that this dataset is from an experimental environment. In
 
 ### Recap of the Python Data Processing Workflow
 
-In this project, we set up a Python environment, loaded and processed structural health monitoring data, and visualized it using LightningChart Python. The process involved reading data files, cleaning and preprocessing the data, and creating insightful visualizations.
-
-### Benefits of Using LightningChart Python for Visualizing Data for This Specific Project
-
-LightningChart Python offers advanced charting capabilities that are essential for visualizing complex SHM data. Its ability to handle real-time data and provide clear, customizable visualizations makes it an invaluable tool for structural integrity analysis.
-
-By following this workflow, engineers and researchers can effectively monitor the health of civil infrastructure, ensuring safety and longevity through timely interventions.
+In this project, we set up a Python environment, loaded and processed structural health monitoring data, and visualized it using LightningChart Python that offers advanced charting capabilities that are essential for visualizing complex data. The process involved reading data files, cleaning and preprocessing the data, and creating insightful visualizations.
 
 ## Sources
 
