@@ -2,15 +2,13 @@
 
 ## Introduction
 
-StructuralHealth Monitoring (SHM) is a crucial aspect of civil engineering that involves usingvarious methods and technologies to monitor the integrity and performance ofstructures. SHM systems help ensure the safety, reliability, and longevity ofbuildings, bridges, and other civil infrastructure. By continuously monitoringthe structural health, engineers can detect potential issues early and takenecessary actions to prevent catastrophic failures.Structural Health Monitoring (SHM) is a crucial aspect of civil engineering that involves the use of various methods and technologies to monitor the integrity and performance of structures. SHM systems help in ensuring the safety, reliability, and longevity of buildings, bridges, and other civil infrastructure. By continuously monitoring the structural health, engineers can detect potential issues early and take necessary actions to prevent catastrophic failure.
-
 ### What is Structural Health Monitoring (SHM)?
 
-StructuralHealth Monitoring (SHM) refers to the process of implementing a damagedetection strategy for structures. SHM involves using sensors and dataacquisition systems to collect information about a structure's condition overtime. This data is then analyzed to identify any changes or anomalies that might indicate damage or degradation.Structural Health Monitoring refers to the process of implementing a damage detection strategy for structures. SHM involves the use of sensors and data acquisition systems to collect information about the condition of a structure over time. This data is then analyzed to identify any changes or anomalies that might indicate damage or degradation.
+Structural Health Monitoring (SHM) refers to the process of implementing a damage detection strategy for structures. SHM involves using sensors and data acquisition systems to collect information about a structure's condition overtime. This data is then analyzed to identify any changes or anomalies that might indicate damage or degradation.
 
 ### How Does Civil Engineering Use Structural Health Monitoring Systems?
 
-In civilengineering, SHM systems monitor various types of infrastructure, includingbridges, buildings, dams, and tunnels. These systems use a range of sensors,such as accelerometers, strain gauges, and temperature sensors, to measure parameters like vibrations, deformations, and environmental conditions. The collected data helps engineers assess structural integrity and make informed decisions about maintenance and repairs.In civil engineering, SHM systems are used to monitor various types of infrastructure, including bridges, buildings, dams, and tunnels. These systems use a range of sensors, such as accelerometers, strain gauges, and temperature sensors, to measure parameters like vibrations, deformations, and environmental conditions. The collected data helps engineers assess the structural integrity and make informed decisions about maintenance and repair
+In civil engineering, SHM systems monitor various types of infrastructure, includingbridges, buildings, dams, and tunnels. These systems use a range of sensors,such as accelerometers, strain gauges, and temperature sensors, to measure parameters like vibrations, deformations, and environmental conditions. The collected data helps engineers assess structural integrity and make informed decisions about maintenance and repairs.
 
 ### Why is it Important to Monitor Structural Health?
 
@@ -207,7 +205,7 @@ Adjust the chart properties to customize the visualizations as per your requirem
 
 ### Streaming and Updating Data in Real-Time
 
-LightningChart allows for real-time data streaming and updates, which is essential for monitoring ongoing structural health.
+LightningChart Python allows for real-time data streaming and updates, which is essential for monitoring ongoing structural health.
 
 ## Dashboard Visualization
 
