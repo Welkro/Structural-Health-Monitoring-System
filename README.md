@@ -108,7 +108,7 @@ dmgDataCleaned.head(10)
 
 ### Creating Waveform Graphs
 
-Use LightningChart to create waveform graphs of the acceleration data.
+Use LightningChart Python to create waveform graphs of the acceleration data.
 
 ```python
 import lightningchart as lc
