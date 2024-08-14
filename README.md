@@ -27,8 +27,7 @@ Structural sensors are devices used to measure physical quantities related to th
 
 ### Overview of LightningChart Python Usability for This Specific Project
 
-LightningChart Python is a powerful tool for visualizing data, particularly in structural integrity analysis projects. Its advanced charting capabilities are ideal for displaying real-time data from SHM systems, providing clear and insightful
-visual representations of structural health metrics. LightningChart Python is a powerful tool for visualizing data, particularly in projects involving structural integrity analysis. Its advanced charting capabilities make it ideal for displaying real time data from SHM systems, providing clear and insightful visual representations of structural health metrics.
+LightningChart Python is a powerful tool for visualizing data, particularly in projects involving structural integrity analysis. Its advanced charting capabilities make it ideal for displaying real time data from SHM systems, providing clear and insightful visual representations of structural health metrics.
 
 ## Setting Up Python Environment
 
